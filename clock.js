@@ -24,7 +24,7 @@ $(document).ready(function () {
   setInterval(function () {
     var now = new Date()
     setDate(now)
-    var hourDegree = timeRotation('hour', now.getUTCHours() + 8)
+    var hourDegree = timeRotation('hour', now.getUTCHours() + 9)
     var minuteDegree = timeRotation('minute', now.getUTCMinutes())
     var secondDegree = timeRotation('second', now.getUTCSeconds())
     hour.style.transform = 'rotate(' + hourDegree + 'deg)'

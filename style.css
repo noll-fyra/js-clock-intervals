@@ -1,0 +1,36 @@
+#clock {
+  transform: rotate(0deg);
+  /*position: absolute;*/
+}
+
+#clock img {
+  position: absolute;
+}
+
+#face {
+  position: relative;
+  /*right: 200px;*/
+}
+
+#hour {
+  position: relative;
+}
+
+#minute {
+  position: relative;
+}
+
+#second {
+  position: relative;
+}
+
+p {
+  position: absolute;
+  margin: 358px 212px;
+  font-family: Tahoma;
+  font-size: 38px;
+  color: red;
+  border: 2px black solid;
+  padding: 2px;
+  border-radius: 10px;
+}
